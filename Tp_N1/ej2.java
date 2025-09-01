@@ -30,10 +30,12 @@ leer NRO1, NRO2, NRO3
             int nro3;
 
             System.out.println("Ingresar 3 numeros enteros: ");
-            nro1 = scanner.nextInt(); 
+            nro1= scanner.nextInt(); 
+            scanner.nextInt();
             nro2 = scanner.nextInt();
+            
             nro3 = scanner.nextInt();
-
+            
             if (nro1>nro2 && nro1>nro3) {
                 System.out.println("el mayor es: "+nro1);
             }
